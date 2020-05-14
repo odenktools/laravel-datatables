@@ -39,8 +39,8 @@ class UserController extends Controller
             //-- START DYNAMIC QUERY BINDING
             $conditions = '1 = 1';
             if (!empty($searchValue)) {
-                $conditions .= " AND nme LIKE '%" . strtolower(trim($searchValue)) . "%'";
-                $conditions .= " OR email LIKE '%" . strtolower(trim($searchValue)) . "%'";
+                $conditions .= " AND name LIKE '%" . trim($searchValue) . "%'";
+                $conditions .= " OR email LIKE '%" . trim($searchValue) . "%'";
             }
             //-- END DYNAMIC QUERY BINDING
 
