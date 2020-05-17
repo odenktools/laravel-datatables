@@ -1,9 +1,9 @@
 # Laravel Datatables (Without use any libraries)
 
-This is source code for [jQuery Datatables and Laravel Pagination](https://odenktools.com/jquery-datatables-and-laravel-pagination-without-use-any-libraries)
+This is source code for [jQuery Datatables and Laravel 6.x Pagination](https://odenktools.com/jquery-datatables-laravel6-pagination)
 
 ## Features
 
 - [x] Sorting
 - [x] Searching
-- [x] Paging
+- [x] Pagination
